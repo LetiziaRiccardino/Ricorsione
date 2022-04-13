@@ -35,7 +35,7 @@ public class Anagrammi {
 
 	public static void main(String[] args) {
 		
-		Anagrammi main = new Anagrammi(); //testAnagrammi
+		Anagrammi main = new Anagrammi(); //testAnagrammi (basta lanciare questa classe Anagrammi)
 		main.anagramma("ABCD");
 	}
 
