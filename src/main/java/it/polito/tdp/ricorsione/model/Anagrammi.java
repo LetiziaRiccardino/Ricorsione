@@ -19,6 +19,7 @@ public class Anagrammi {
 	 * @param rimanenti I caratteri ancora da sistemare
 	 */
 	private void anagramma_ricorsiva(String parziale, int livello, String rimanenti) {
+		
 		if (rimanenti.length() == 0) { /* caso terminale */
 			System.out.println(parziale);
 		} else {
@@ -34,7 +35,7 @@ public class Anagrammi {
 
 	public static void main(String[] args) {
 		
-		Anagrammi main = new Anagrammi();
+		Anagrammi main = new Anagrammi(); //testAnagrammi
 		main.anagramma("ABCD");
 	}
 
